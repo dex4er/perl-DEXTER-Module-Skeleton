@@ -17,6 +17,11 @@ distributed as CPAN package.
 
 =cut
 
+
+use 5.006;
+use strict;
+use warnings;
+
 our $VERSION = 0.01;
 
 
@@ -34,6 +39,7 @@ Prints "Hello world!" message.
 
 sub hello {
     print "Hello world!\n";
+    return;
 };
 
 1;
@@ -41,7 +47,7 @@ sub hello {
 
 =for readme continue
 
-=head1 PREREQUISITIES
+=head1 PREREQUISITES
 
 For distribution archive: 
 

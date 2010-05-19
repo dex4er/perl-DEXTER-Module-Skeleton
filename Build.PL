@@ -16,7 +16,6 @@ my $build = Module::Build->new(
     license => 'perl',
     requires => {
         'perl'               => 5.006,
-        'IO::File'           => 1.02,
     },
     optional => {
     },

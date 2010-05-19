@@ -18,7 +18,7 @@
 \bBuild$
 \bBuild.bat$
 \b_build
-\bBuild.SH$
+\bDist.SH$
 
 # Avoid Devel::Cover generated files
 \bcover_db
