@@ -10,6 +10,6 @@ $PERL Build.PL
 $PERL Build manifest
 
 $PERL Build
-$PERL -MApp::Prove -e '$app=App::Prove->new; $app->process_args(qw{-Iblib/lib xt}); $app->run;'
+$PERL -MApp::Prove -e '$app=App::Prove->new; $app->process_args(qw(-Iblib/lib xt)); $app->run;'
 
 $PERL Build dist
