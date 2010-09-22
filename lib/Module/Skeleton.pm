@@ -131,3 +131,5 @@ Copyright (c) 2010 Piotr Roszatycki <dexter@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as perl itself.
+
+See L<http://dev.perl.org/licenses/artistic.html>
