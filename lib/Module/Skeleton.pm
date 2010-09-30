@@ -119,7 +119,7 @@ L<Test::Signature>
 
 =head1 SEE ALSO
 
-L<http://github.com/dex4er/Module-Skeleton>, L<Module::Builder>.
+L<http://github.com/dex4er/perl-Module-Skeleton>, L<Module::Builder>.
 
 =head1 AUTHOR
 
