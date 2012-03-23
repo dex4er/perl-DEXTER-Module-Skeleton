@@ -1,0 +1,58 @@
+NAME
+    Module::Skeleton - Skeleton for new modules
+
+SYNOPSIS
+    This is a skeleton useful for new modules which are built with
+    Module::Builder.
+
+    The `master' branch contains the versioned files without all automaticly
+    generated content and the `cpan' branch contains the files which are
+    distributed as CPAN package.
+
+PREREQUISITES
+    For distribution archive:
+
+    * Module::Build
+
+    * Pod::Readme (if `create_readme' is used)
+
+    * Software::License (if `create_license' is used)
+
+    * Module::Signature (if `sign' is used)
+
+    For extra tests (called as `prove -Ilib xt')
+
+    * Test::CheckChanges
+
+    * File::Slurp
+
+    * Readonly
+
+    * Test::Distribution
+
+    * Test::Kwalitee
+
+    * Test::Perl::Critic
+
+    * Test::Pod
+
+    * Test::Pod::Coverage
+
+    * Test::Spelling
+
+    * Test::Signature
+
+SEE ALSO
+    http://github.com/dex4er/perl-Module-Skeleton, Module::Builder.
+
+AUTHOR
+    Piotr Roszatycki <dexter@cpan.org>
+
+LICENSE
+    Copyright (c) 2010 Piotr Roszatycki <dexter@cpan.org>.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as perl itself.
+
+    See http://dev.perl.org/licenses/artistic.html
+
