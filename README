@@ -1,5 +1,5 @@
 NAME
-    Module::Skeleton - Skeleton for new modules
+    DEXTER::Module::Skeleton - Skeleton for new modules
 
 SYNOPSIS
     This is a skeleton useful for new modules which are built with
@@ -43,13 +43,20 @@ PREREQUISITES
     * Test::Signature
 
 SEE ALSO
-    http://github.com/dex4er/perl-Module-Skeleton, Module::Builder.
+    Module::Build.
+
+BUGS
+    If you find the bug or want to implement new features, please report it
+    at http://rt.cpan.org/NoAuth/Bugs.html?Dist=DEXTER-Module-Skeleton
+
+    The code repository is available at
+    http://github.com/dex4er/perl-DEXTER-Module-Skeleton
 
 AUTHOR
     Piotr Roszatycki <dexter@cpan.org>
 
 LICENSE
-    Copyright (c) 2010 Piotr Roszatycki <dexter@cpan.org>.
+    Copyright (c) 2012 Piotr Roszatycki <dexter@cpan.org>.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as perl itself.
