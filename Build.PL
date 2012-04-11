@@ -26,7 +26,6 @@ my $build = Module::Build->new(
     create_makefile_pl => 'traditional',
     create_readme => 1,
     create_license => 1,
-    sign => 1,
     recursive_test_files => 0,
     add_to_cleanup => [
         '*.bak', '*.gz', '*.tgz', '*.ppd', '*.ppmx', '*.deb', '*.bat',
