@@ -119,7 +119,15 @@ L<Test::Signature>
 
 =head1 SEE ALSO
 
-L<http://github.com/dex4er/perl-Module-Skeleton>, L<Module::Builder>.
+L<Module::Build>.
+
+=head1 BUGS
+
+If you find the bug or want to implement new features, please report it at
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Module-Skeleton>
+
+The code repository is available at
+L<http://github.com/dex4er/perl-Module-Skeleton>
 
 =head1 AUTHOR
 
@@ -127,7 +135,7 @@ Piotr Roszatycki <dexter@cpan.org>
 
 =head1 LICENSE
 
-Copyright (c) 2010 Piotr Roszatycki <dexter@cpan.org>.
+Copyright (c) 2012 Piotr Roszatycki <dexter@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as perl itself.
