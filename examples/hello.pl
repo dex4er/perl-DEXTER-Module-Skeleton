@@ -2,6 +2,6 @@
 
 use lib 'lib', '../lib';
 
-use Module::Skeleton;
+use DEXTER::Module::Skeleton;
 
-Module::Skeleton->hello;
+DEXTER::Module::Skeleton->hello;

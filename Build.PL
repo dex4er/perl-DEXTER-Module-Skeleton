@@ -7,7 +7,7 @@ use warnings;
 
 use Module::Build;
 
-my $module = 'Module::Skeleton';
+my $module = 'DEXTER::Module::Skeleton';
 
 (my $dist = $module) =~ s/::/-/g;
 
