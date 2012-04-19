@@ -19,6 +19,7 @@ my $build = Module::Build->new(
     },
     recommends              => {
         'File::Slurp'           => 0,
+        'Pod::Markdown'         => 0,
         'Readonly'              => 0,
         'Test::CheckChanges'    => 0,
         'Test::Distribution'    => 0,
