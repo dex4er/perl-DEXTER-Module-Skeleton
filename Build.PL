@@ -16,10 +16,14 @@ my $build = Module::Build->new(
     license                 => 'perl',
     requires                => {
         'perl'                  => 5.006,
+        'Module::Build'         => 0,
+        'Module::Signature'     => 0,
+        'Pod::Markdown'         => 0,
+        'Pod::Readme'           => 0,
+        'Software::License'     => 0,
     },
     recommends              => {
         'File::Slurp'           => 0,
-        'Pod::Markdown'         => 0,
         'Readonly'              => 0,
         'Test::CheckChanges'    => 0,
         'Test::Distribution'    => 0,
