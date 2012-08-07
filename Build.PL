@@ -23,6 +23,8 @@ my $build = Module::Build->new(
         'Software::License'     => 0,
     },
     recommends              => {
+        'Devel::Cover'          => 0,
+        'Devel::NYTProf'        => 0,
         'File::Slurp'           => 0,
         'Readonly'              => 0,
         'Test::CheckChanges'    => 0,
