@@ -57,7 +57,7 @@ my $build = Module::Build->new(
     ],
     meta_merge              => {
         resources               => {
-            bugtracker => "http://rt.cpan.org/NoAuth/Bugs.html?Dist=$dist",
+            bugtracker => "http://github.com/dex4er/perl-$dist/issues",
             repository => "http://github.com/dex4er/perl-$dist",
         },
     },
