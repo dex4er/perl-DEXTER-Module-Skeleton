@@ -16,11 +16,6 @@ my $build = Module::Build->new(
     license                 => 'perl',
     requires                => {
         'perl'                  => 5.006,
-        'Module::Build'         => 0,
-        'Module::Signature'     => 0,
-        'Pod::Markdown'         => 0,
-        'Pod::Readme'           => 0,
-        'Software::License'     => 0,
     },
     recommends              => {
         'Devel::Cover'          => 0,
@@ -43,6 +38,11 @@ my $build = Module::Build->new(
         'Test::Spelling'        => 0,
     },
     build_requires          => {
+        'Module::Build'         => 0,
+        'Module::Signature'     => 0,
+        'Pod::Markdown'         => 0,
+        'Pod::Readme'           => 0,
+        'Software::License'     => 0,
         'Test::More'            => 0,
     },
     auto_configure_requires => 0,
