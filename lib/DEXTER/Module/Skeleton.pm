@@ -124,7 +124,7 @@ L<Module::Build>.
 =head1 BUGS
 
 If you find the bug or want to implement new features, please report it at
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=DEXTER-Module-Skeleton>
+L<https://github.com/dex4er/perl-DEXTER-Module-Skeleton/issues>
 
 The code repository is available at
 L<http://github.com/dex4er/perl-DEXTER-Module-Skeleton>
