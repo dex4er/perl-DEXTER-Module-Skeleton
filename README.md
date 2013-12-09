@@ -7,10 +7,6 @@ DEXTER::Module::Skeleton - Skeleton for new modules
 This is a skeleton useful for new modules which are built with
 [Module::Builder](https://metacpan.org/pod/Module::Builder).
 
-The `master` branch contains the versioned files without all automaticly
-generated content and the `cpan` branch contains the files which are
-distributed as CPAN package.
-
 # METHODS
 
 - hello
@@ -19,7 +15,7 @@ distributed as CPAN package.
 
 # PREREQUISITES
 
-For distribution archive: 
+For distribution archive:
 
 - [Module::Build](https://metacpan.org/pod/Module::Build)
 - [Pod::Readme](https://metacpan.org/pod/Pod::Readme) (if `create_readme` is used)
@@ -57,7 +53,7 @@ Piotr Roszatycki <dexter@cpan.org>
 
 # LICENSE
 
-Copyright (c) 2012 Piotr Roszatycki <dexter@cpan.org>.
+Copyright (c) 2012-2013 Piotr Roszatycki <dexter@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as perl itself.

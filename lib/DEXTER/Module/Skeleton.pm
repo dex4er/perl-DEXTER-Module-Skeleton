@@ -9,10 +9,6 @@ DEXTER::Module::Skeleton - Skeleton for new modules
 This is a skeleton useful for new modules which are built with
 L<Module::Builder>.
 
-The C<master> branch contains the versioned files without all automaticly
-generated content and the C<cpan> branch contains the files which are
-distributed as CPAN package.
-
 =for readme stop
 
 =cut
@@ -22,7 +18,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.01_20131209';
 
 
 =head1 METHODS
@@ -49,7 +45,7 @@ sub hello {
 
 =head1 PREREQUISITES
 
-For distribution archive: 
+For distribution archive:
 
 =over 2
 
@@ -135,7 +131,7 @@ Piotr Roszatycki <dexter@cpan.org>
 
 =head1 LICENSE
 
-Copyright (c) 2012 Piotr Roszatycki <dexter@cpan.org>.
+Copyright (c) 2012-2013 Piotr Roszatycki <dexter@cpan.org>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as perl itself.
