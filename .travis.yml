@@ -1,5 +1,9 @@
 language: perl
-install: cpanm --with-recommends --installdeps --notest .
+before_install:
+  - sudo apt-get update -qq
+install:
+  - sudo apt-get install -qq spell
+  - cpanm --with-recommends --installdeps --notest .
 script: ./Dist.SH
 perl:
   - 5.18

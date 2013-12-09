@@ -26,9 +26,11 @@ $PERL Build
 $PERL Build test
 $PERL -MApp::Prove -e '$a=App::Prove->new;$a->process_args(qw(-Iblib/lib xt));exit($a->run ? 0 : 1)'
 
-if [ $1 = sign ]; then
+if [ "$1" = sign ]; then
     $PERL Build distsign
     diff -u -I^SIGNATURE MANIFEST *-[0-9]*.[0-9]*/MANIFEST
+else
+    $PERL Build distdir
 fi
 
 chmod -R u+w,go-w *-[0-9]*.[0-9]*
