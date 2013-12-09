@@ -1,0 +1,4 @@
+language: perl
+install: cpanm --with-recommends --installdeps --notest .
+perl:
+  - 5.18

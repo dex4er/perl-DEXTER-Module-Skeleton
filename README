@@ -47,7 +47,7 @@ SEE ALSO
 
 BUGS
     If you find the bug or want to implement new features, please report it
-    at http://rt.cpan.org/NoAuth/Bugs.html?Dist=DEXTER-Module-Skeleton
+    at https://github.com/dex4er/perl-DEXTER-Module-Skeleton/issues
 
     The code repository is available at
     http://github.com/dex4er/perl-DEXTER-Module-Skeleton

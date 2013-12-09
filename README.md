@@ -5,7 +5,7 @@ DEXTER::Module::Skeleton - Skeleton for new modules
 # SYNOPSIS
 
 This is a skeleton useful for new modules which are built with
-[Module::Builder](http://search.cpan.org/perldoc?Module::Builder).
+[Module::Builder](https://metacpan.org/pod/Module::Builder).
 
 The `master` branch contains the versioned files without all automaticly
 generated content and the `cpan` branch contains the files which are
@@ -15,38 +15,38 @@ distributed as CPAN package.
 
 - hello
 
-Prints "Hello world!" message.
+    Prints "Hello world!" message.
 
 # PREREQUISITES
 
 For distribution archive: 
 
-- [Module::Build](http://search.cpan.org/perldoc?Module::Build)
-- [Pod::Readme](http://search.cpan.org/perldoc?Pod::Readme) (if `create_readme` is used)
-- [Software::License](http://search.cpan.org/perldoc?Software::License) (if `create_license` is used)
-- [Module::Signature](http://search.cpan.org/perldoc?Module::Signature) (if `sign` is used)
+- [Module::Build](https://metacpan.org/pod/Module::Build)
+- [Pod::Readme](https://metacpan.org/pod/Pod::Readme) (if `create_readme` is used)
+- [Software::License](https://metacpan.org/pod/Software::License) (if `create_license` is used)
+- [Module::Signature](https://metacpan.org/pod/Module::Signature) (if `sign` is used)
 
 For extra tests (called as `prove -Ilib xt`)
 
-- [Test::CheckChanges](http://search.cpan.org/perldoc?Test::CheckChanges)
-- [File::Slurp](http://search.cpan.org/perldoc?File::Slurp)
-- [Readonly](http://search.cpan.org/perldoc?Readonly)
-- [Test::Distribution](http://search.cpan.org/perldoc?Test::Distribution)
-- [Test::Kwalitee](http://search.cpan.org/perldoc?Test::Kwalitee)
-- [Test::Perl::Critic](http://search.cpan.org/perldoc?Test::Perl::Critic)
-- [Test::Pod](http://search.cpan.org/perldoc?Test::Pod)
-- [Test::Pod::Coverage](http://search.cpan.org/perldoc?Test::Pod::Coverage)
-- [Test::Spelling](http://search.cpan.org/perldoc?Test::Spelling)
-- [Test::Signature](http://search.cpan.org/perldoc?Test::Signature)
+- [Test::CheckChanges](https://metacpan.org/pod/Test::CheckChanges)
+- [File::Slurp](https://metacpan.org/pod/File::Slurp)
+- [Readonly](https://metacpan.org/pod/Readonly)
+- [Test::Distribution](https://metacpan.org/pod/Test::Distribution)
+- [Test::Kwalitee](https://metacpan.org/pod/Test::Kwalitee)
+- [Test::Perl::Critic](https://metacpan.org/pod/Test::Perl::Critic)
+- [Test::Pod](https://metacpan.org/pod/Test::Pod)
+- [Test::Pod::Coverage](https://metacpan.org/pod/Test::Pod::Coverage)
+- [Test::Spelling](https://metacpan.org/pod/Test::Spelling)
+- [Test::Signature](https://metacpan.org/pod/Test::Signature)
 
 # SEE ALSO
 
-[Module::Build](http://search.cpan.org/perldoc?Module::Build).
+[Module::Build](https://metacpan.org/pod/Module::Build).
 
 # BUGS
 
 If you find the bug or want to implement new features, please report it at
-[http://rt.cpan.org/NoAuth/Bugs.html?Dist=DEXTER-Module-Skeleton](http://rt.cpan.org/NoAuth/Bugs.html?Dist=DEXTER-Module-Skeleton)
+[https://github.com/dex4er/perl-DEXTER-Module-Skeleton/issues](https://github.com/dex4er/perl-DEXTER-Module-Skeleton/issues)
 
 The code repository is available at
 [http://github.com/dex4er/perl-DEXTER-Module-Skeleton](http://github.com/dex4er/perl-DEXTER-Module-Skeleton)
