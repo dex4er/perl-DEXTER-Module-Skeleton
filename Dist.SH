@@ -26,8 +26,10 @@ $PERL Build
 $PERL Build test
 $PERL -MApp::Prove -e '$a=App::Prove->new;$a->process_args(qw(-Iblib/lib xt));exit($a->run ? 0 : 1)'
 
-$PERL Build distsign
-diff -u -I^SIGNATURE MANIFEST *-[0-9]*.[0-9]*/MANIFEST
+if [ $1 = sign ]; then
+    $PERL Build distsign
+    diff -u -I^SIGNATURE MANIFEST *-[0-9]*.[0-9]*/MANIFEST
+fi
 
 chmod -R u+w,go-w *-[0-9]*.[0-9]*
 tar zcf $(basename $(pwd)).tar.gz *-[0-9]*.[0-9]*
