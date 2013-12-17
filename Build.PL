@@ -34,6 +34,7 @@ my $build = Module::Build->new(
         'Test::Perl::Critic'    => 0,
         'Test::Pod::Coverage'   => 1.04,
         'Test::Pod'             => 1.14,
+        'Test::PPPort'          => 0,
         'Test::Signature'       => 0,
         'Test::Spelling'        => 0,
     },

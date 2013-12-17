@@ -18,7 +18,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01_20131209';
+our $VERSION = '0.01_20131217';
 
 
 =head1 METHODS
@@ -102,6 +102,10 @@ L<Test::Pod>
 =item *
 
 L<Test::Pod::Coverage>
+
+=item *
+
+L<Test::PPPort>
 
 =item *
 
