@@ -32,6 +32,7 @@ For extra tests (called as `prove -Ilib xt`)
 - [Test::Perl::Critic](https://metacpan.org/pod/Test::Perl::Critic)
 - [Test::Pod](https://metacpan.org/pod/Test::Pod)
 - [Test::Pod::Coverage](https://metacpan.org/pod/Test::Pod::Coverage)
+- [Test::PPPort](https://metacpan.org/pod/Test::PPPort)
 - [Test::Spelling](https://metacpan.org/pod/Test::Spelling)
 - [Test::Signature](https://metacpan.org/pod/Test::Signature)
 
