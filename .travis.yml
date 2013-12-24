@@ -1,3 +1,5 @@
+# [![Build Status](https://travis-ci.org/dex4er/perl-DEXTER-Module-Skeleton.png?branch=master)](https://travis-ci.org/dex4er/perl-DEXTER-Module-Skeleton)
+
 language: perl
 before_install:
   - sudo apt-get update -qq
