@@ -18,7 +18,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01_20131224';
+our $VERSION = '0.0100_20131230';
 
 
 =head1 METHODS
