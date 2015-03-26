@@ -21,6 +21,7 @@ my $build = Module::Build->new(
         'Devel::Cover'          => 0,
         'Devel::NYTProf'        => 0,
         'File::Slurp'           => 0,
+        'Module::Build::Version' => 0,
         'Readonly'              => 0,
         'Test::CheckChanges'    => 0,
         'Test::CPAN::Changes'   => 0,
