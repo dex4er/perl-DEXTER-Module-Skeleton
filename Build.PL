@@ -42,7 +42,7 @@ my $build = Module::Build->new(
         'Module::Build'         => 0,
         'Module::Signature'     => 0,
         'Pod::Markdown'         => 0,
-        'Pod::Readme'           => 0,
+        $] >= 5.010 ? ('Pod::Readme' => 0) : (),
         'Software::License'     => 0,
         'Test::More'            => 0,
     },

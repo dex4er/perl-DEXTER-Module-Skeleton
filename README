@@ -1,49 +1,54 @@
 NAME
+
     DEXTER::Module::Skeleton - Skeleton for new modules
 
 SYNOPSIS
+
     This is a skeleton useful for new modules which are built with
     Module::Builder.
 
 PREREQUISITES
+
     For distribution archive:
 
-    * Module::Build
+      * Module::Build
 
-    * Pod::Readme (if `create_readme' is used)
+      * Pod::Readme (if create_readme is used)
 
-    * Software::License (if `create_license' is used)
+      * Software::License (if create_license is used)
 
-    * Module::Signature (if `sign' is used)
+      * Module::Signature (if sign is used)
 
-    For extra tests (called as `prove -Ilib xt')
+    For extra tests (called as prove -Ilib xt)
 
-    * Test::CheckChanges
+      * Test::CheckChanges
 
-    * File::Slurp
+      * File::Slurp
 
-    * Readonly
+      * Readonly
 
-    * Test::Distribution
+      * Test::Distribution
 
-    * Test::Kwalitee
+      * Test::Kwalitee
 
-    * Test::Perl::Critic
+      * Test::Perl::Critic
 
-    * Test::Pod
+      * Test::Pod
 
-    * Test::Pod::Coverage
+      * Test::Pod::Coverage
 
-    * Test::PPPort
+      * Test::PPPort
 
-    * Test::Spelling
+      * Test::Spelling
 
-    * Test::Signature
+      * Test::Signature
 
 SEE ALSO
+
     Module::Build.
 
 BUGS
+
     If you find the bug or want to implement new features, please report it
     at https://github.com/dex4er/perl-DEXTER-Module-Skeleton/issues
 
@@ -51,10 +56,12 @@ BUGS
     http://github.com/dex4er/perl-DEXTER-Module-Skeleton
 
 AUTHOR
+
     Piotr Roszatycki <dexter@cpan.org>
 
 LICENSE
-    Copyright (c) 2012-2013 Piotr Roszatycki <dexter@cpan.org>.
+
+    Copyright (c) 2012-2013, 2015 Piotr Roszatycki <dexter@cpan.org>.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as perl itself.
